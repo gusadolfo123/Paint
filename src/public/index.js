@@ -1,3 +1,6 @@
+const io = require('socket.io-client');
+require('./style.css');
+
 function init() {
   let mouse = {
     click: false,

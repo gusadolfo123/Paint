@@ -1,2 +1,3 @@
 npm i express socket.io
 npm i nodemon -D
+npm i webpack webpack-cli style-loader css-loader webpack-dev-server html-webpack-plugin

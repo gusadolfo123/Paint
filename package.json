@@ -1,17 +1,25 @@
 {
-  "name": "PaintSocketIO",
+  "name": "paint-socket-io",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "paint-socket-io",
+  "main": "src/public/index.js",
   "scripts": {
-    "dev": "nodemon ./src/index.js"
+    "dev": "nodemon ./src/index.js",
+    "build": "webpack -p",
+    "dev-serve": "webpack-dev-server -d"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "css-loader": "^2.1.1",
     "express": "^4.16.4",
-    "socket.io": "^2.2.0"
+    "html-webpack-plugin": "^3.2.0",
+    "socket.io": "^2.2.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
   },
   "devDependencies": {
     "nodemon": "^1.18.10"
