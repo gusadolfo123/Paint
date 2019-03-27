@@ -1,0 +1,14 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body,
+html {
+  background-color: rgb(48, 48, 48);
+  width: 100%;
+  height: 100%;
+  color: whitesmoke;
+}
+#drawing {
+  background-color: whitesmoke;
+}
