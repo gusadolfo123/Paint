@@ -1,3 +1,7 @@
 npm i express socket.io
 npm i nodemon -D
 npm i webpack webpack-cli style-loader css-loader webpack-dev-server html-webpack-plugin
+npm i --save socket.io-client
+npm i @types/socket.io-client
+npm i webpack-node-externals
+npm install --save-dev html-loader html-webpack-plugin

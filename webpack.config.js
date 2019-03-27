@@ -15,13 +15,13 @@ module.exports = {
     port: 3800,
   },
   //reglas de webpack
-  resolve: {
-    alias: {
-      'socket.io-client': path.join(__dirname, 'socket.io-client', 'socket.io.js'),
-    },
-  },
+  // resolve: {
+  //   alias: {
+  //     'socket.io-client': path.join(__dirname, 'node_modules', 'socket.io-client', 'socket.io.js'),
+  //   },
+  // },
   module: {
-    noParse: [/socket.io-client/],
+    // noParse: [/socket.io-client/],
     rules: [
       {
         // testee todos los .css

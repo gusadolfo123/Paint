@@ -1,5 +1,5 @@
-const io = require('socket.io-client');
 require('./style.css');
+const io = require('socket.io-client/dist/socket.io');
 
 function init() {
   let mouse = {
@@ -21,6 +21,7 @@ function init() {
   canvas.height = height;
 
   // conexion con socketIO
+
   const socket = io();
 
   canvas.addEventListener('mousedown', e => {
